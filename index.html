@@ -5,57 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <nav>
-        <a href='#'>home</a>
-        <a href="">about</a>
-        <a href="#">work</a>
-        <a href="#">resume</a>
-        <a href="#">contact</a>
+        <ul class="nav-bar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
 
     <form>
-        <section>
-            <h2>About</h2>
-            <p>I am a passionate learner and aspiring data scientist currently living in Nigeria.<br>
-            My journey in the tech field has been enriched through various learning experiences<br> and practical 
-            applications. My dedication to learning has helped me overcome<br> challenges and deepen my understanding 
-            of complex concepts.
-            </p>
-            <video controls width="500" height="300">
+        <section class="container">
+            <div class="about">
+                <h2>About</h2>
+                <p>I am a passionate learner and aspiring data scientist currently living in Nigeria. My<br>
+                journey in the tech field has been enriched through various learning experiences<br>
+                and practical applications. My dedication to learning has helped me overcome<br> 
+                challenges and deepen my understanding of complex concepts.
+                </p>
+            </div>
+
+            <video controls width="350" height="300">
                 <source src="buildspace.mp4" type="video/mp4"/>
             </video>
-            <br>
-            <button>Read more</button>
         </section>
+        <button>Read more</button>
 
-        <section>
+        <section class="work">
             <h2>Work</h2>
-            <ul>
-                <li><a href="#">LinkedIn Profile</a></li>
-                <li><a href="#">Twitter handle</a></li>
-                <li><a href="#">Behance profile</a></li>
+            <ul id="work">
+                <li>LinkedIn: <a href="#">LinkedIn Profile</a></li>
+                <li>Twitter: <a href="#">Twitter handle</a></li>
+                <li>Behance: <a href="#">Behance profile</a></li>
             </ul>
         </section>
 
-        <section>
+        <section class="resume">
             <h2>Resume</h2>
-            <ul>
+            <ul id="resume">
                 <li><a href="#">Resume</a></li>
             </ul>
         </section>
 
-        <footer>
-            <section>
+        <footer class="footer">
+            <section class="contact">
                 <h2>Contact</h2>
-                123 Lawrence Onoja St, GRA, Katsina State.
-                <br>
-                07012345678
-                <br>
-                abcd@gmail.com 
+                <ul id="contact">
+                    <li>123 Lawrence Onoja St, GRA, Katsina State.</li>
+                    <li> 07012345678</li>
+                    <li>abcd@gmail.com </li>
+                </ul>
             </section>
         </footer>
 

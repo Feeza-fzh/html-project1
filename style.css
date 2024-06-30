@@ -1,0 +1,92 @@
+body{
+    background-color: #D4EDB3;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:#b5d68a;
+    border: 1px solid white;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li{
+    margin: 0 15px;
+}
+
+.nav-bar a{
+    font-size: 18px;
+    color: #265B97;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.about h2{
+font-size: 24px;
+}
+
+button{
+    margin-left: 150px;
+    padding: 10px 10px 10px 10px;
+    color: #265B97;
+    background-color: #b5d68a;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.work{
+    margin-left: 0px;
+    margin-right: 600px;
+    margin-top: 20px;
+    border: 1px solid #b5d68a ;
+    padding-left: 250px;
+    background-color: #b5d68a;
+    
+}
+
+#work li{
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+
+.resume{
+    margin-left: 647px;
+    margin-top: -169px;
+    margin-bottom: 80px;
+    border: 1px solid #b5d68a ;
+    padding: 10px 10px 56px 250px;
+    background-color: #b5d68a;
+}
+
+#resume li{
+    list-style: none;
+}
+
+.footer{
+    border: 1px solid #b5d68a;
+    background-color: #b5d68a;
+}
+
+.contact{
+    padding-left: 500px;
+}
+
+.contact li{
+    margin-bottom: 15px;
+    list-style: none;
+}
