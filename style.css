@@ -66,8 +66,8 @@ button{
 
 .resume{
     margin-left: 647px;
-    margin-top: -169px;
-    margin-bottom: 80px;
+    margin-top: -413.5px;
+    margin-bottom: 250px;
     border: 1px solid #b5d68a ;
     padding: 10px 10px 56px 250px;
     background-color: #b5d68a;
@@ -89,4 +89,41 @@ button{
 .contact li{
     margin-bottom: 15px;
     list-style: none;
+}
+
+.form-field{
+    padding-top: 65px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.form-field input{
+    padding-left: 50px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+#mail{
+    margin-left: 88px;
+    border: 2px solid #b5d68a;
+    border-radius: 5px;
+}
+
+#fname{
+    margin-left: 50px;
+    border: 2px solid #b5d68a;
+    border-radius: 5px;
+}
+
+#lname{
+    margin-left: 55px;
+    border: 2px solid #b5d68a;
+    border-radius: 5px;
+    
+}
+
+#pnum{
+    margin-left: 25px;
+    border: 2px solid #b5d68a;
+    border-radius: 5px;
 }
